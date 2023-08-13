@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>EBSG - Productivity Genes</name>
+  <author>alite</author>
+  <packageId>EBSG.Productivity</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.royalty</packageId>
+      <displayName>Royalty</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.ideology</packageId>
+      <displayName>Ideology</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+Expanded Biotech Style Genes(EBSG) is the step beyond [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes[/url]. Where that series sought to expand ranges that already exist, this series seeks to add ranges that should exist. You get gene ranges that alter sleep fall rate, but why not a range for changing the rate it recovers? If you can have fire resistance genes, why not have genes to resist other types of damage like frostbite and acid?
+
+Throughout nature, animals with many different habits can be found. Some like burrowing into the ground for food and shelter, while others rely on using the plants in their area. Some hunt smaller animals, while others form a symbiotic relationship. Some build structures that alter the flow of water, dam beavers. This mod allows you to create these preferences by giving pawns a bonuses to specific types of production in exchange for metabolic efficiency.
+
+Each increasing tier of the gene increases the bonus received by 25%, while the penalizing genes completely disable the work type. The work types currently in the mod are:
+
+Hunting Instinct(Hunting Stealth)
+Herding Instinct(Animal Gather Speed)
+Burrowing Instinct(Mining Speed)
+Foraging Instinct(Plant Work Speed)
+Curiousity Instinct(Research Speed)
+Industrious Instinct(Building Speed)
+Caring Instinct (Medical Tend Speed)
+
+
+For those wondering why I am using speed instead of yield or success chance, it's because there tend to be caps placed on the yields/success chances, while there usually aren't any on speed. This means that using speed will allow you to gain the benefits of the gene throughout the entire game instead of it being limited to early game/life.
+
+This mod will eventually be put into Expanded Biotech Style Genes - All in One. If that mod exists and you still see this message, please let me know I forgot to add the link here.
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://github.com/KonradHeinser/ProductivityGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
+<!--Original textures for gene icons are available on https://game-icons.net-->
+

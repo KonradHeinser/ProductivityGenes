@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringIncapable</defName>
+        <label>caring incapable</label>
+        <iconPath>EBSG/Gene_CaringIncapable</iconPath>
+        <description>Carriers of this gene simply lacks the mental capacity required to care for the health of others.\n\nThey will also be unable to self-tend, so using a healing gene along with this is recommended if the pawn is a combatant.</description>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <disabledWorkTags>
+            <li>Caring</li>
+        </disabledWorkTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringMinor</defName>
+        <label>somewhat caring</label>
+        <iconPath>EBSG/Gene_Caring</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person somewhat faster than normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MedicalTendSpeed>1.25</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_Caring</defName>
+        <label>caring</label>
+        <iconPath>EBSG/Gene_Caring</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person faster than normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MedicalTendSpeed>1.50</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringMajor</defName>
+        <label>very caring</label>
+        <iconPath>EBSG/Gene_Caring</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person significantly faster than normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MedicalTendSpeed>1.75</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringExtreme</defName>
+        <label>extremely caring</label>
+        <iconPath>EBSG/Gene_CaringExtreme</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person extremely fast compared to normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MedicalTendSpeed>2.00</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringSuper</defName>
+        <label>super caring</label>
+        <iconPath>EBSG/Gene_CaringExtreme</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person super fast compared to normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MedicalTendSpeed>2.25</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Caring">
+        <defName>EBSG_CaringHyper</defName>
+        <label>hyper caring</label>
+        <iconPath>EBSG/Gene_CaringExtreme</iconPath>
+        <description>Carriers of this gene have brains that can instinctively figure out what is wrong with a person unbelievably fast compared to normal.\n\nThis instinct will not help them with more complex operations, nor will it help them know how to tend the individual well.</description>
+        <displayOrderInCategory>7</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MedicalTendSpeed>2.50</MedicalTendSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriosityIncapable</defName>
+        <label>curiosity incapable</label>
+        <iconPath>EBSG/Gene_CuriosityIncapable</iconPath>
+        <description>Carriers of this gene are incapable of wanting to discover new things, preferring to utilize what is already known.\n\nThis will not impact their learning rate, just make researching new things impossible for them. To ensure the pawn can still produce drugs, intellectual work is not disabled.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>51</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <ResearchSpeed>0</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriosityMinor</defName>
+        <label>minor curiosity instinct</label>
+        <iconPath>EBSG/Gene_Curiosity</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed by a little bit.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>52</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <ResearchSpeed>1.25</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_Curiosity</defName>
+        <label>curiosity instinct</label>
+        <iconPath>EBSG/Gene_Curiosity</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>53</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ResearchSpeed>1.50</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriosityMajor</defName>
+        <label>major curiosity instinct</label>
+        <iconPath>EBSG/Gene_Curiosity</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed by a lot.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>54</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <ResearchSpeed>1.75</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriosityExtreme</defName>
+        <label>extreme curiosity instinct</label>
+        <iconPath>EBSG/Gene_CuriosityExtreme</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed to extreme levels.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>55</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <ResearchSpeed>2.00</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriositySuper</defName>
+        <label>super curiosity instinct</label>
+        <iconPath>EBSG/Gene_CuriosityExtreme</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed to super high levels.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>56</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <ResearchSpeed>2.25</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Curiosity">
+        <defName>EBSG_CuriosityHyper</defName>
+        <label>hyper curiosity instinct</label>
+        <iconPath>EBSG/Gene_CuriosityExtreme</iconPath>
+        <description>Carriers of this gene have brains that work better than normal when discovering concepts that were previously unknown, increasing their research speed to unbelievable levels.\n\nThis will not impact their learning rate, just the rate that they research things.\n\nFor more options involving the rate a pawn learns, take a look at More Study Genes. You can use those to alter how well a pawn can better themselves.</description>
+        <displayOrderInCategory>57</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <ResearchSpeed>2.50</ResearchSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>
