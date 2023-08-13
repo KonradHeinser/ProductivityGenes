@@ -7,9 +7,9 @@
         <description>Carriers of this gene are incapable of working with plants. The exact reason for this gene makes the carrier so careless with plants is unknown.</description>
         <displayOrderInCategory>31</displayOrderInCategory>
         <biostatMet>1</biostatMet>
-        <disabledWorkTags>
-            <li>Animals</li>
-        </disabledWorkTags>
+        <statFactors>
+            <AnimalGatherSpeed>0</AnimalGatherSpeed>
+        </statFactors>
     </GeneDef>
 
     <GeneDef ParentName="EBSG_Herding">
