@@ -20,7 +20,7 @@
         <displayOrderInCategory>42</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
         <statFactors>
-            <ConstructionSpeedFactor>1.25</ConstructionSpeedFactor>
+            <ConstructionSpeed>1.25</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 
@@ -32,7 +32,7 @@
         <displayOrderInCategory>43</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
         <statFactors>
-            <ConstructionSpeedFactor>1.50</ConstructionSpeedFactor>
+            <ConstructionSpeed>1.50</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 
@@ -45,7 +45,7 @@
         <biostatMet>-3</biostatMet>
         <biostatCpx>2</biostatCpx>
         <statFactors>
-            <ConstructionSpeedFactor>1.75</ConstructionSpeedFactor>
+            <ConstructionSpeed>1.75</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 
@@ -58,7 +58,7 @@
         <biostatMet>-4</biostatMet>
         <biostatCpx>2</biostatCpx>
         <statFactors>
-            <ConstructionSpeedFactor>2.00</ConstructionSpeedFactor>
+            <ConstructionSpeed>2.00</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 
@@ -71,7 +71,7 @@
         <biostatMet>-5</biostatMet>
         <biostatCpx>3</biostatCpx>
         <statFactors>
-            <ConstructionSpeedFactor>2.25</ConstructionSpeedFactor>
+            <ConstructionSpeed>2.25</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 
@@ -84,7 +84,7 @@
         <biostatMet>-6</biostatMet>
         <biostatCpx>3</biostatCpx>
         <statFactors>
-            <ConstructionSpeedFactor>2.50</ConstructionSpeedFactor>
+            <ConstructionSpeed>2.50</ConstructionSpeed>
         </statFactors>
     </GeneDef>
 </Defs>
