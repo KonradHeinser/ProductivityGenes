@@ -4,7 +4,7 @@
         <defName>EBSG_HerdingIncapable</defName>
         <label>herding incapable</label>
         <iconPath>EBSG/Gene_HerdingIncapable</iconPath>
-        <description>Carriers of this gene are incapable of working with plants. The exact reason for this gene makes the carrier so careless with plants is unknown.</description>
+        <description>Carriers of this gene are incapable of gathering materials from animals. The exact reason for this gene makes the carrier so careless with animals is unknown.</description>
         <displayOrderInCategory>31</displayOrderInCategory>
         <biostatMet>1</biostatMet>
         <statFactors>
