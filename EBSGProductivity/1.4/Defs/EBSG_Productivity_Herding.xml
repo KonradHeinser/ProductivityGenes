@@ -16,7 +16,7 @@
         <defName>EBSG_HerdingMinor</defName>
         <label>minor herding instinct</label>
         <iconPath>EBSG/Gene_Herding</iconPath>
-        <description>Carriers of this gene can instinctively gather good material from animals a little faster than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals a little faster than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>32</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
         <statFactors>
@@ -28,7 +28,7 @@
         <defName>EBSG_Herding</defName>
         <label>herding instinct</label>
         <iconPath>EBSG/Gene_Herding</iconPath>
-        <description>Carriers of this gene can instinctively plant and harvest plants better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>33</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
         <statFactors>
@@ -40,7 +40,7 @@
         <defName>EBSG_HerdingMajor</defName>
         <label>major herding instinct</label>
         <iconPath>EBSG/Gene_Herding</iconPath>
-        <description>Carriers of this gene can instinctively plant and harvest plants a lot better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals a lot better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>34</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
         <biostatCpx>2</biostatCpx>
@@ -53,7 +53,7 @@
         <defName>EBSG_HerdingExtreme</defName>
         <label>extreme herding instinct</label>
         <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively plant and harvest plants extremely fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals extremely fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>35</displayOrderInCategory>
         <biostatMet>-4</biostatMet>
         <biostatCpx>2</biostatCpx>
@@ -66,7 +66,7 @@
         <defName>EBSG_HerdingSuper</defName>
         <label>super herding instinct</label>
         <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively plant and harvest plants super fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals super fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>36</displayOrderInCategory>
         <biostatMet>-5</biostatMet>
         <biostatCpx>3</biostatCpx>
@@ -79,7 +79,7 @@
         <defName>EBSG_HerdingHyper</defName>
         <label>hyper herding instinct</label>
         <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively plant and harvest plants unbelievably fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <description>Carriers of this gene can instinctively harvest materials from animals unbelievably fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
         <displayOrderInCategory>37</displayOrderInCategory>
         <biostatMet>-6</biostatMet>
         <biostatCpx>3</biostatCpx>
