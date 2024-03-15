@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingIncapable</defName>
+        <label>Hunting incapable</label>
+        <iconPath>EBSG/Gene_HuntingIncapable</iconPath>
+        <description>Carriers of this gene instinctively hate the idea of sneaking up on an enemy, instead preferring to fight them directly.</description>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <disabledWorkTags>
+            <li>Hunting</li>
+        </disabledWorkTags>
+        <statFactors>
+            <HuntingStealth>0</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingMinor</defName>
+        <label>minor hunting instinct</label>
+        <iconPath>EBSG/Gene_Hunting</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed a little more easily than normal.</description>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <HuntingStealth>1.25</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_Hunting</defName>
+        <label>hunting instinct</label>
+        <iconPath>EBSG/Gene_Hunting</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed more easily than normal.</description>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <HuntingStealth>1.50</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingMajor</defName>
+        <label>major hunting instinct</label>
+        <iconPath>EBSG/Gene_Hunting</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed a lot more easily than normal.</description>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <HuntingStealth>1.75</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingExtreme</defName>
+        <label>extreme hunting instinct</label>
+        <iconPath>EBSG/Gene_HuntingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed extremely well compared to normal people.</description>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <HuntingStealth>2.00</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingSuper</defName>
+        <label>super hunting instinct</label>
+        <iconPath>EBSG/Gene_HuntingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed super well compared to normal people.</description>
+        <displayOrderInCategory>16</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <HuntingStealth>2.25</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hunting">
+        <defName>EBSG_HuntingHyper</defName>
+        <label>hyper hunting instinct</label>
+        <iconPath>EBSG/Gene_HuntingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hunt animals without being noticed unbelievably well compared to normal people.</description>
+        <displayOrderInCategory>17</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <HuntingStealth>2.50</HuntingStealth>
+        </statFactors>
+    </GeneDef>
+</Defs>
