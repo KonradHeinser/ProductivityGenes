@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingIncapable</defName>
+        <label>herding incapable</label>
+        <iconPath>EBSG/Gene_HerdingIncapable</iconPath>
+        <description>Carriers of this gene are incapable of gathering materials from animals. The exact reason for this gene makes the carrier so careless with animals is unknown.</description>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <AnimalGatherSpeed>0</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingMinor</defName>
+        <label>minor herding instinct</label>
+        <iconPath>EBSG/Gene_Herding</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals a little faster than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <AnimalGatherSpeed>1.25</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_Herding</defName>
+        <label>herding instinct</label>
+        <iconPath>EBSG/Gene_Herding</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <AnimalGatherSpeed>1.50</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingMajor</defName>
+        <label>major herding instinct</label>
+        <iconPath>EBSG/Gene_Herding</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals a lot better than most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <AnimalGatherSpeed>1.75</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingExtreme</defName>
+        <label>extreme herding instinct</label>
+        <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals extremely fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>35</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <AnimalGatherSpeed>2.00</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingSuper</defName>
+        <label>super herding instinct</label>
+        <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals super fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>36</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <AnimalGatherSpeed>2.25</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Herding">
+        <defName>EBSG_HerdingHyper</defName>
+        <label>hyper herding instinct</label>
+        <iconPath>EBSG/Gene_HerdingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively harvest materials from animals unbelievably fast compared to most.\n\nThis instinct will not help them gather more materials from animals, just accelerate the rate that they can get materials.</description>
+        <displayOrderInCategory>37</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <AnimalGatherSpeed>2.50</AnimalGatherSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

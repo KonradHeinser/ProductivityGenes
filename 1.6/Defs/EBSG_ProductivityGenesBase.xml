@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_Productivity</defName>
+        <label>productivity genes</label>
+        <displayPriorityInXenotype>270.01</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Burrowing">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Burrowing</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Caring">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Caring</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Curiosity">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Curiosity</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Foraging">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Foraging</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Herding">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Herding</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Hunting">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Hunting</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Construction">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Construction</li>
+        </exclusionTags>
+    </GeneDef>
+</Defs>

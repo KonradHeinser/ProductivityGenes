@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingIncapable</defName>
+        <label>Foraging incapable</label>
+        <iconPath>EBSG/Gene_ForagingIncapable</iconPath>
+        <description>Carriers of this gene are incapable of working with plants. The exact reason for this gene makes the carrier so careless with plants is unknown.</description>
+        <displayOrderInCategory>21</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <disabledWorkTags>
+            <li>PlantWork</li>
+        </disabledWorkTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingMinor</defName>
+        <label>minor foraging instinct</label>
+        <iconPath>EBSG/Gene_Foraging</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants a little faster than most.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <PlantWorkSpeed>1.25</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_Foraging</defName>
+        <label>foraging instinct</label>
+        <iconPath>EBSG/Gene_Foraging</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants faster than most.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <PlantWorkSpeed>1.50</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingMajor</defName>
+        <label>major foraging instinct</label>
+        <iconPath>EBSG/Gene_Foraging</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants a lot faster than most.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PlantWorkSpeed>1.75</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingExtreme</defName>
+        <label>extreme foraging instinct</label>
+        <iconPath>EBSG/Gene_ForagingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants extremely fast compared to normal.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PlantWorkSpeed>2.00</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingSuper</defName>
+        <label>super foraging instinct</label>
+        <iconPath>EBSG/Gene_ForagingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants super fast compared to normal.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>26</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <PlantWorkSpeed>2.25</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Foraging">
+        <defName>EBSG_ForagingHyper</defName>
+        <label>hyper foraging instinct</label>
+        <iconPath>EBSG/Gene_ForagingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively plant and harvest plants at unbelievable speeds compared to normal.\n\nThis instinct will not help them get more from the plants, just help them gather the materials faster.</description>
+        <displayOrderInCategory>27</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <PlantWorkSpeed>2.50</PlantWorkSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>
