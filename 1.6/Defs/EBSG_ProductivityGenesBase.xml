@@ -54,4 +54,18 @@
             <li>EBSG_Construction</li>
         </exclusionTags>
     </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Hacking">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Hacking</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_Piloting">
+        <displayCategory>EBSG_Productivity</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Piloting</li>
+        </exclusionTags>
+    </GeneDef>
 </Defs>

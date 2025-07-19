@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingIncapable</defName>
+        <label>piloting incapable</label>
+        <iconPath>EBSG/Gene_PilotingIncapable</iconPath>
+        <description>Carriers of this gene have extreme difficulties understanding movement in a three dimensional environment, rendering them incapable of piloting anything properly.</description>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <PilotingAbility>0</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingMinor</defName>
+        <label>minor piloting instinct</label>
+        <iconPath>EBSG/Gene_Piloting</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting a little easier.</description>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <PilotingAbility>1.25</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_Piloting</defName>
+        <label>piloting instinct</label>
+        <iconPath>EBSG/Gene_Piloting</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting easier.</description>
+        <displayOrderInCategory>103</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <PilotingAbility>1.50</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingMajor</defName>
+        <label>major piloting instinct</label>
+        <iconPath>EBSG/Gene_Piloting</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting a lot easier.</description>
+        <displayOrderInCategory>104</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PilotingAbility>1.75</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingExtreme</defName>
+        <label>extreme piloting instinct</label>
+        <iconPath>EBSG/Gene_PilotingExtreme</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting extremely easy.</description>
+        <displayOrderInCategory>105</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PilotingAbility>2.00</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingSuper</defName>
+        <label>super piloting instinct</label>
+        <iconPath>EBSG/Gene_PilotingExtreme</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting super easy, barely an inconvenience.</description>
+        <displayOrderInCategory>106</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <PilotingAbility>2.25</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingHyper</defName>
+        <label>hyper piloting instinct</label>
+        <iconPath>EBSG/Gene_PilotingExtreme</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting unbelievably easy.</description>
+        <displayOrderInCategory>107</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <PilotingAbility>2.50</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+</Defs>

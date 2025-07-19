@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingIncapable</defName>
+        <label>hacking incapable</label>
+        <iconPath>EBSG/Gene_HackingIncapable</iconPath>
+        <description>Carriers of this gene have something incomprehensibly wrong with their biology that causes computers they attempt to hack to reject the intrusion, making it almost impossible for the carrier to hack anything.</description>
+        <displayOrderInCategory>71</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <HackingSpeed>0</HackingSpeed>
+            <HackingStealth>0</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingMinor</defName>
+        <label>minor hacking instinct</label>
+        <iconPath>EBSG/Gene_Hacking</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers a little more easily than normal.</description>
+        <displayOrderInCategory>72</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <HackingSpeed>1.25</HackingSpeed>
+            <HackingStealth>1.10</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_Hacking</defName>
+        <label>hacking instinct</label>
+        <iconPath>EBSG/Gene_Hacking</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers more easily than normal.</description>
+        <displayOrderInCategory>73</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <HackingSpeed>1.50</HackingSpeed>
+            <HackingStealth>1.20</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingMajor</defName>
+        <label>major hacking instinct</label>
+        <iconPath>EBSG/Gene_Hacking</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers a lot more easily than normal.</description>
+        <displayOrderInCategory>74</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <HackingSpeed>1.75</HackingSpeed>
+            <HackingStealth>1.30</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingExtreme</defName>
+        <label>extreme hacking instinct</label>
+        <iconPath>EBSG/Gene_HackingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers extremely well compared to normal people.</description>
+        <displayOrderInCategory>75</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <HackingSpeed>2.00</HackingSpeed>
+            <HackingStealth>1.40</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingSuper</defName>
+        <label>super hacking instinct</label>
+        <iconPath>EBSG/Gene_HackingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers super well compared to normal people.</description>
+        <displayOrderInCategory>76</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <HackingSpeed>2.25</HackingSpeed>
+            <HackingStealth>1.50</HackingStealth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Hacking">
+        <defName>EBSG_HackingHyper</defName>
+        <label>hyper hacking instinct</label>
+        <iconPath>EBSG/Gene_HackingExtreme</iconPath>
+        <description>Carriers of this gene can instinctively hack into computers unbelievably well compared to normal people.</description>
+        <displayOrderInCategory>77</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <HackingSpeed>2.50</HackingSpeed>
+            <HackingStealth>1.60</HackingStealth>
+        </statFactors>
+    </GeneDef>
+</Defs>
