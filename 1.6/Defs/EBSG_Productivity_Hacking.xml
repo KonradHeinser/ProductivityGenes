@@ -17,7 +17,7 @@
         <defName>EBSG_HackingMinor</defName>
         <label>minor hacking instinct</label>
         <iconPath>EBSG/Gene_Hacking</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers a little more easily than normal.</description>
+        <description>Carriers of this gene can instinctively hack into computers a little more easily than normal for unknown reasons.</description>
         <displayOrderInCategory>72</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
         <statFactors>
@@ -30,7 +30,7 @@
         <defName>EBSG_Hacking</defName>
         <label>hacking instinct</label>
         <iconPath>EBSG/Gene_Hacking</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers more easily than normal.</description>
+        <description>Carriers of this gene can instinctively hack into computers more easily than normal for unknown reasons.</description>
         <displayOrderInCategory>73</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
         <statFactors>
@@ -43,7 +43,7 @@
         <defName>EBSG_HackingMajor</defName>
         <label>major hacking instinct</label>
         <iconPath>EBSG/Gene_Hacking</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers a lot more easily than normal.</description>
+        <description>Carriers of this gene can instinctively hack into computers a lot more easily than normal for unknown reasons.</description>
         <displayOrderInCategory>74</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
         <biostatCpx>2</biostatCpx>
@@ -57,7 +57,7 @@
         <defName>EBSG_HackingExtreme</defName>
         <label>extreme hacking instinct</label>
         <iconPath>EBSG/Gene_HackingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers extremely well compared to normal people.</description>
+        <description>Carriers of this gene can instinctively hack into computers extremely well compared to normal people for unknown reasons.</description>
         <displayOrderInCategory>75</displayOrderInCategory>
         <biostatMet>-4</biostatMet>
         <biostatCpx>2</biostatCpx>
@@ -71,7 +71,7 @@
         <defName>EBSG_HackingSuper</defName>
         <label>super hacking instinct</label>
         <iconPath>EBSG/Gene_HackingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers super well compared to normal people.</description>
+        <description>Carriers of this gene can instinctively hack into computers super well compared to normal people for unknown reasons.</description>
         <displayOrderInCategory>76</displayOrderInCategory>
         <biostatMet>-5</biostatMet>
         <biostatCpx>3</biostatCpx>
@@ -85,7 +85,7 @@
         <defName>EBSG_HackingHyper</defName>
         <label>hyper hacking instinct</label>
         <iconPath>EBSG/Gene_HackingExtreme</iconPath>
-        <description>Carriers of this gene can instinctively hack into computers unbelievably well compared to normal people.</description>
+        <description>Carriers of this gene can instinctively hack into computers unbelievably well compared to normal people for unknown reasons.</description>
         <displayOrderInCategory>77</displayOrderInCategory>
         <biostatMet>-6</biostatMet>
         <biostatCpx>3</biostatCpx>
