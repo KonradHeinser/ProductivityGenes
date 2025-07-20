@@ -4,7 +4,7 @@
         <defName>EBSG_HackingIncapable</defName>
         <label>hacking incapable</label>
         <iconPath>EBSG/Gene_HackingIncapable</iconPath>
-        <description>Carriers of this gene have something incomprehensibly wrong with their biology that causes computers they attempt to hack to reject the intrusion, making it almost impossible for the carrier to hack anything.</description>
+        <description>Carriers of this gene have something incomprehensibly wrong with their biology that causes computers they attempt to hack to reject the intrusion, making it almost impossible for the carrier to hack anything.\n\nWhile this gene say it sets the values to 0, it technically sets them to the minimum set by the stat (10% in vanilla).</description>
         <displayOrderInCategory>71</displayOrderInCategory>
         <biostatMet>1</biostatMet>
         <statFactors>
